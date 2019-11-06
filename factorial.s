@@ -66,7 +66,7 @@ factorial:
 			
 			mul $v0, $s0, $v0
 			
-			# Debugging print statements
+			# Debugging print statements	
 			la $a0, ($v0)
 			li $v0, 1
 			syscall
